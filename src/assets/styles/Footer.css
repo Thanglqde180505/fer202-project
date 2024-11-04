@@ -1,0 +1,35 @@
+.footer {
+    background-image: url('https://w.ladicdn.com/s1440x478/5f0522eee09476169a272758/ws20ss48c-ldcf-20200714102040.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 8, 8, 0.375);
+    z-index: 1;
+}
+
+.footer * {
+    position: relative;
+    z-index: 2;
+}
+
+.logo_shop {
+    width: 200px;
+    height: auto;
+}

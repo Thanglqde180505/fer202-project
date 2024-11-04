@@ -1,0 +1,28 @@
+.right-side img {
+    width: 300px;
+    height: 300px;
+}
+
+.left-side img {
+    width: 608px;
+    height: 608px;
+}
+
+.btn-show-all a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-show-all button {
+    padding: 20px 20px;
+    background-color: rgba(162, 27, 15, 0.98);
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+}
+
+.btn-show-all button:hover {
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #000;
+}

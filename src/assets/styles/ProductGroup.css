@@ -1,0 +1,36 @@
+.product_group {
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content {
+    width: 950px;
+    text-align: center;
+    color: #000;
+}
+
+.name-shop {
+    color: rgba(162, 27, 15, 0.98);
+}
+
+.logo:hover {
+    transform: scale(0.5);
+}
+
+.feature-product {
+    position: relative;
+}
+
+.product_img{
+    width: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product_img:hover{
+    transform: scale(1.2);
+}
