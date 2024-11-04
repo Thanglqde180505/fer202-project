@@ -1,0 +1,46 @@
+.intro-form-contact h3 {
+    line-height: 20px;
+    font-weight: 340;
+    letter-spacing: 10px;
+}
+
+.line-break-intro {
+    width: 180px;
+    padding: 1px;
+    background-color: rgba(162, 27, 15, 0.98);
+    text-align: center;
+    margin-left: 50px;
+}
+
+.wrapper-form-contact input {
+    width: 300px;
+    padding: 20px 40px;
+    text-align: start;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.wrapper-form-contact input:focus {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+.wrapper-form-contact button {
+    padding: 20px 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: rgba(162, 27, 15, 0.98);
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+.wrapper-form-contact button:hover{
+    background-color: #000;
+    color: aqua;
+}
+

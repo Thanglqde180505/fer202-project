@@ -1,0 +1,59 @@
+.my-btn {
+    background-color: rgba(162, 27, 15, 0.98);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.my-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    max-height: 100px;
+    width: 150px;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.btn-product {
+    padding: 10px 30px;
+    background-color: rgba(162, 27, 15, 0.98);
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in;
+}
+
+.btn-product.infor-p {
+    background-color: rgba(226, 218, 222, 0.8);
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+
+.btn-product.infor-p:hover {
+    background-color: rgba(237, 233, 235, 0.8);
+    color: #000;
+}
+
+
+.btn-product:hover {
+    background-color: rgba(0, 101, 255, 0.8);
+    color: rgba(250, 255, 0, 0.8);
+}
+
+.inofor-p {
+    text-decoration: none;
+}
