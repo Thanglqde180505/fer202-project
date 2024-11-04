@@ -1,0 +1,13 @@
+.wrapper-content-contact {
+    width: 550px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrapper-content-contact b {
+    color: rgba(162, 27, 15, 0.98);
+}
+.line {
+    width: 45px;
+    padding: 1px;
+    background-color: #000;
+}

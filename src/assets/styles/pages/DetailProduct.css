@@ -1,0 +1,30 @@
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745; 
+}
+
+h2 {
+    margin-top: 20px; 
+}
+
+.wrapper-detail img {
+    width: 350px;
+    height: 350px;
+}
+
+.wrapper-btn-cart-detail button {
+    padding: 5px 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:  rgba(162, 27, 15, 0.98);
+    color: #fff;
+    border: none;
+}
+
+
+.start-quantity img {
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
